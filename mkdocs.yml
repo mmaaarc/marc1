@@ -2,10 +2,9 @@ site_name: Sistemes Marc Baiges
 theme:
   name: material
   features:
-    - navigation.tabs
+   - navigation.sidebar
     - navigation.sections
     - toc.integrate
-    - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -27,4 +26,21 @@ theme:
       accent: lime
 
 extra_css:
-  - css/styles.css  # Asegúrate de que esta línea esté alineada correctamente
+ - css/styles.css
+
+nav: 
+- Sprint 1:
+    - as.md
+    - llicenciament.md
+    - comandes.md
+    - instalacio.md
+    - restauracio.md
+    - recuperarsistema.md
+    - xarxa.md
+
+- Sprint 2:
+    - sprint2.md
+    - usuaris.md
+    - permisos.md
+    - umask.md
+
